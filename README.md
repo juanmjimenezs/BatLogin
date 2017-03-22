@@ -11,3 +11,5 @@ It's an app to practice animations with a login screen in my process to learn Sw
 | LaunchScreen  | Login |
 | --------- | --------- |
 | ![launch-screen](https://cloud.githubusercontent.com/assets/1808666/23837250/53fa4e7a-0753-11e7-9e2c-374af838cbe3.png) | ![login](https://cloud.githubusercontent.com/assets/1808666/23837251/53fa7706-0753-11e7-990e-9d8685488c11.png) |
+
+![batlogin](https://cloud.githubusercontent.com/assets/1808666/24201919/8834acd8-0edf-11e7-9716-b1c60ff57bb3.gif)
