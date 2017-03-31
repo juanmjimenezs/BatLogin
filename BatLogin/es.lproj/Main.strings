@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "TIRA HACIA ABAJO PARA DESBLOQUEAR"; ObjectID = "Cn3-lj-2gb"; */
+"Cn3-lj-2gb.text" = "TIRA HACIA ABAJO PARA DESBLOQUEAR";
+
+/* Class = "UIButton"; normalTitle = "ENTRAR"; ObjectID = "HTo-S5-CDh"; */
+"HTo-S5-CDh.normalTitle" = "ENTRAR";
+
+/* Class = "UILabel"; text = "USUARIO"; ObjectID = "k94-BA-QnU"; */
+"k94-BA-QnU.text" = "USUARIO";
+
+/* Class = "UILabel"; text = "CONTRASEÑA"; ObjectID = "xCq-AA-bYh"; */
+"xCq-AA-bYh.text" = "CONTRASEÑA";

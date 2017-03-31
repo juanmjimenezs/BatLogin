@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA505B041E8E069E005A05DB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA505B021E8E069E005A05DB /* Localizable.strings */; };
 		FA9903BD1E3EC4EA00817F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9903BC1E3EC4EA00817F57 /* AppDelegate.swift */; };
 		FA9903BF1E3EC4EA00817F57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9903BE1E3EC4EA00817F57 /* ViewController.swift */; };
 		FA9903C21E3EC4EA00817F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9903C01E3EC4EA00817F57 /* Main.storyboard */; };
@@ -16,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA505B001E8E02EF005A05DB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		FA505B011E8E02EF005A05DB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FA505B031E8E069E005A05DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FA505B051E8E06CC005A05DB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FA9903B91E3EC4EA00817F57 /* BatLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9903BC1E3EC4EA00817F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA9903BE1E3EC4EA00817F57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +68,7 @@
 				FA9903C31E3EC4EB00817F57 /* Assets.xcassets */,
 				FA9903C51E3EC4EB00817F57 /* LaunchScreen.storyboard */,
 				FA9903C81E3EC4EB00817F57 /* Info.plist */,
+				FA505B021E8E069E005A05DB /* Localizable.strings */,
 			);
 			path = BatLogin;
 			sourceTree = "<group>";
@@ -110,6 +116,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = FA9903B01E3EC4EA00817F57;
 			productRefGroup = FA9903BA1E3EC4EA00817F57 /* Products */;
@@ -127,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA9903C71E3EC4EB00817F57 /* LaunchScreen.storyboard in Resources */,
+				FA505B041E8E069E005A05DB /* Localizable.strings in Resources */,
 				FA9903C41E3EC4EB00817F57 /* Assets.xcassets in Resources */,
 				FA9903C21E3EC4EA00817F57 /* Main.storyboard in Resources */,
 			);
@@ -148,10 +156,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		FA505B021E8E069E005A05DB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA505B031E8E069E005A05DB /* Base */,
+				FA505B051E8E06CC005A05DB /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		FA9903C01E3EC4EA00817F57 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FA9903C11E3EC4EA00817F57 /* Base */,
+				FA505B001E8E02EF005A05DB /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -160,6 +178,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FA9903C61E3EC4EB00817F57 /* Base */,
+				FA505B011E8E02EF005A05DB /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,6 +190,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -220,6 +240,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -301,6 +322,7 @@
 				FA9903CD1E3EC4EB00817F57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BatLogin.xcscheme</key>
+		<key>BatLogin-EN.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>BatLogin-ES.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>

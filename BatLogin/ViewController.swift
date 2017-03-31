@@ -31,7 +31,8 @@ class ViewController: UIViewController {
             self.lblInstructions.layer.opacity = 0
             self.imgLogoBatman.transform = CGAffineTransform(scaleX: 0.7, y: 0.7)//Que se haga más pequeño
         }
-        //self.viewAnimator.startAnimation()
+        
+        print(NSLocalizedString("test", comment: "This is a test"))
     }
 
     func handle(pan: UIPanGestureRecognizer) {

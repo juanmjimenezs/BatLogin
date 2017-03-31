@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  BatLogin
+
+  Created by Juan Manuel Jimenez Sanchez on 30/03/17.
+  Copyright © 2017 Juan Manuel Jimenez Sanchez. All rights reserved.
+*/
+"test" = "Esto es una prueba de traducción";
